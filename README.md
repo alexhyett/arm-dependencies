@@ -1,13 +1,13 @@
 # arm-dependencies
 
-[![Deploy Docker Image](https://github.com/automatic-ripping-machine/arm-dependencies/actions/workflows/deploy-docker.yml/badge.svg)](https://github.com/automatic-ripping-machine/arm-dependencies/actions/workflows/deploy-docker.yml)
+[![Deploy Docker Image](https://github.com/alexhyett/arm-dependencies/actions/workflows/deploy-docker.yml/badge.svg)](https://github.com/alexhyett/arm-dependencies/actions/workflows/deploy-docker.yml)
 [![Docker](https://img.shields.io/docker/pulls/automaticrippingmachine/arm-dependencies.svg)](https://hub.docker.com/r/automaticrippingmachine/arm-dependencies)
 
-[![GitHub license](https://img.shields.io/github/license/automatic-ripping-machine/arm-dependencies)](https://github.com/automatic-ripping-machine/arm-dependencies/blob/main/LICENSE)
-[![GitHub forks](https://img.shields.io/github/forks/automatic-ripping-machine/arm-dependencies)](https://github.com/automatic-ripping-machine/arm-dependencies/network)
-[![GitHub stars](https://img.shields.io/github/stars/automatic-ripping-machine/arm-dependencies)](https://github.com/automatic-ripping-machine/arm-dependencies/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/automatic-ripping-machine/arm-dependencies)](https://github.com/automatic-ripping-machine/arm-dependencies/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/automatic-ripping-machine/arm-dependencies)](https://github.com/automatic-ripping-machine/arm-dependencies/pulls)
+[![GitHub license](https://img.shields.io/github/license/alexhyett/arm-dependencies)](https://github.com/alexhyett/arm-dependencies/blob/main/LICENSE)
+[![GitHub forks](https://img.shields.io/github/forks/alexhyett/arm-dependencies)](https://github.com/alexhyett/arm-dependencies/network)
+[![GitHub stars](https://img.shields.io/github/stars/alexhyett/arm-dependencies)](https://github.com/alexhyett/arm-dependencies/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/alexhyett/arm-dependencies)](https://github.com/alexhyett/arm-dependencies/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/alexhyett/arm-dependencies)](https://github.com/alexhyett/arm-dependencies/pulls)
 
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django)
 
@@ -23,7 +23,7 @@ The `arm-dependencies`Docker image is rebuilt every night, so you should always 
 ### Git Repo
 To add this manually, run the following command:
 ```shell
-git submodule add -b main https://github.com/automatic-ripping-machine/arm-dependencies arm-dependencies
+git submodule add -b main https://github.com/alexhyett/arm-dependencies arm-dependencies
 git submodule update --init --recursive
 git config -f .gitmodules submodule.arm-dependencies.update rebase
 git submodule update --remote
